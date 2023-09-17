@@ -16,11 +16,41 @@ Extra large screens, TV – 1201px, and more.
 
 /* Media para Tablet ------------------------------------ */
 
-@media screen and (min-width: 769) and (max-width: 1024){ 
+@media screen and (min-width: 769px) and (max-width: 1024px){ 
     
-}
+    main{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section{
+        width: 769px;
+        height: 320px;
+        position: relative;
+    }
+
+    img{
+        width: 285px;
+        height: 320px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+    article{
+        display: block;
+        position: absolute;
+        left: 40%;
+        top: 5%;
+    }
+
+    p.usuario-senha > input{width: 408px;}
+
+    p#botao-entrar > input{width: 440px;}
+    p#botao-esqueci-a-senha > input {width: 440px;}
 
 /* Media para Desktops --------------------------------- */
 @media screen and (min-width: 1025) and (max-width: 1200){
 
+    main{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
 }

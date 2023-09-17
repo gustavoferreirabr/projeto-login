@@ -29,7 +29,7 @@ section{
     background-color: white;
     border-radius: 20px;
     width: 250px;
-    height: 570px;
+    height: 550px;
     box-shadow:  -1px 4px 14px rgb(0 0 0 / 93%);
     
     /* Centralização da div section */
@@ -58,6 +58,7 @@ article > h1{
 p{
     margin-bottom: 3px;
     text-align: justify;
+    font-size: 13px;
 }
 
 p.usuario-senha{
@@ -73,7 +74,7 @@ p.usuario-senha > input{
     width: 194px;
     height: 35px;
     border-radius: 10px;
-    border: 1px solid #5f2c82;
+    border: none;
 }
 
 p.usuario-senha > span{
@@ -84,7 +85,7 @@ p.usuario-senha > span{
 p#botao-entrar > input{
     background-color: #49a09d;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     display: block;
     margin: auto;
     border: none;
@@ -101,7 +102,7 @@ p#botao-entrar > input:hover{
 p#botao-esqueci-a-senha > input{
     background-color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     display: block;
     margin: auto;
     border: 1px solid #49a09d;
@@ -112,5 +113,5 @@ p#botao-esqueci-a-senha > input{
 }
 
 p#botao-esqueci-a-senha > input:hover{
-    background-color: #49a09d;
+    background-color: #8acfcd;
 }
