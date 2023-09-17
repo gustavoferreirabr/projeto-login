@@ -29,7 +29,7 @@ section{
     background-color: white;
     border-radius: 20px;
     width: 250px;
-    height: 515px;
+    height: 570px;
     box-shadow:  -1px 4px 14px rgb(0 0 0 / 93%);
     
     /* Centralização da div section */
@@ -55,8 +55,8 @@ article > h1{
     padding: 10px;
 }
 
-article > p{
-    margin-bottom: 8px;
+p{
+    margin-bottom: 3px;
     text-align: justify;
 }
 
@@ -64,6 +64,7 @@ p.usuario-senha{
     background-color: #5f2c82;
     margin-bottom: 5px;
     padding: 2px;
+    border-radius: 10px;
     
 }
 
@@ -75,3 +76,41 @@ p.usuario-senha > input{
     border: 1px solid #5f2c82;
 }
 
+p.usuario-senha > span{
+    color: white;
+    height: 20px;
+}
+
+p#botao-entrar > input{
+    background-color: #49a09d;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border: none;
+    width: 230px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+p#botao-entrar > input:hover{
+    background-color: #185250;
+}
+
+p#botao-esqueci-a-senha > input{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border: 1px solid #49a09d;
+    width: 230px;
+    border-radius: 5px;
+    color: #275c5a;
+    font-size: 17px;
+}
+
+p#botao-esqueci-a-senha > input:hover{
+    background-color: #49a09d;
+}
