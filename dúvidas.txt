@@ -1,4 +1,5 @@
 Como faz para deixar os icones certinhos?
+Resposta: Neste caso, devemos aplicar o css até onde se encontra o icone, por exemplo article > form > label > span(onde está o icone)
 
 Minha div estava quebrando no final, como posso deixar ela certa? usando max0width ou vw?
 
@@ -12,6 +13,14 @@ O fato de talvez o conteudo ter fugido do nosso main, foi devido, a termos centr
 O guanabara deixou a imagem e o texto e titulo juntos aos forms, com display:block
 
 O guanabara conseguiu utilizar o transition: width .3s heitgh 1.3s, com isso meio que faz parecer uma animação quando o main está sendo passado para uma outra media.
+
+Esquecemos dos atributos que poderiamos dar nos inputs, como autocomplete  etec..
+
+Para adicionarmos um icone, devemos usar a tag span e o código do icone, vale-se observar que o mesmo devera estar com o css linkado.
+
+Formatação do Formulário:
+
+Com base na minha teoria, o motivo do botão enviar acabava ultrapassando a caixa, foi devido a nosso article não estar em display block, depois devemos realizar diversos textes.
 
 
 <!-- Tópicos para Aprender --!>
