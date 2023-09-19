@@ -26,7 +26,7 @@ main{
 section{
     background-color: white;
     border-radius: 10px;
-    height: 500px;
+    height: 516px;
 
     position: absolute;
     left: 50%;
@@ -51,19 +51,30 @@ p{
 }
 
 article > form > p > span{
-    color: blue;
+    color: rgb(255, 255, 255);
     height: 100%;
     display: block;
 }
+
+
 
 p#botao-entrar > input{
     width: 50vw;
     display: block;
     margin: auto;
+    border: none;
+    background-color: #62c0bd;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
 }
 
 p#botao-esqueci-a-senha > input{
     width: 50vw;
     display: block;
     margin: auto;
+    border: 1px solid #62c0bd;
+    background-color: white;
+    padding: 10px;
+    color: #397c7a;
 }
