@@ -32,7 +32,7 @@ Sempre que tivermos um tranform ou animação, devemos sempre deixar na ultima l
 <!-- Tópicos para Aprender --!>
 
 - box-sizing: border-box
-Resposta:
+Resposta: Neste caso, essa configuração faz com que quando fomos dar alguma medida, essa configuração não soma a borda, apenas o conteudo até o padding, visto que sem essa cnfiguração sera aplicado o width + border autmaticamente.
 
 - overflow: hidden
 Resposta:
