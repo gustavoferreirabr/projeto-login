@@ -2,7 +2,19 @@ Como faz para deixar os icones certinhos?
 
 Minha div estava quebrando no final, como posso deixar ela certa? usando max0width ou vw?
 
+
+<!-- Anotações --!>
+
+O fato de talvez o conteudo ter fugido do nosso main, foi devido, a termos centralizado a div, pelo o margin auto, ao invés disso, devemos testar centralizar a div, pelo transition tranform.
+
+O guanabara deixou a imagem e o texto e titulo juntos aos forms, com display:block
+
+
+
 <!-- Tópicos para Aprender --!>
 
-º box-sizing: border-box
+- box-sizing: border-box
+Resposta:
+
+- overflow: hidden
 Resposta:
