@@ -1,3 +1,8 @@
 Como faz para deixar os icones certinhos?
 
 Minha div estava quebrando no final, como posso deixar ela certa? usando max0width ou vw?
+
+<!-- Tópicos para Aprender --!>
+
+º box-sizing: border-box
+Resposta:
