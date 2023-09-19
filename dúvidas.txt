@@ -4,6 +4,9 @@ Resposta: Neste caso, devemos aplicar o css até onde se encontra o icone, por e
 Minha div estava quebrando no final, como posso deixar ela certa? usando max0width ou vw?
 
 Como deixar quando clicamos no input, deixar ele branco?
+:focus-within{
+    background x
+}
 
 
 <!-- Anotações --!>
@@ -22,6 +25,9 @@ Formatação do Formulário:
 
 Com base na minha teoria, o motivo do botão enviar acabava ultrapassando a caixa, foi devido a nosso article não estar em display block, depois devemos realizar diversos textes.
 
+Dúvidas, em relação a configuranção dos inputs password e e-mails, verificar novamente
+
+Sempre que tivermos um tranform ou animação, devemos sempre deixar na ultima linha do css.
 
 <!-- Tópicos para Aprender --!>
 
