@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="correção.css">
+    <link rel="stylesheet" href="m-correção.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <section>
+            <div id="imagem-baleia"></div>
+                <img src="#" alt="imagem-baleia">
+            <article>
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="#" method="post" autocomplete="on">
+                    <p class="usuario-senha">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="e-mail" id="ie-mail" placeholder=" Seu e-mail" required>
+                    </p>
+                    <p class="usuario-senha">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder=" Sua senha" required minlength="4" maxlength="8">
+                    </p>
+                    <p id="botao-entrar">
+                        <input type="submit" value="Entrar">
+                    </p>
+                    <p id="botao-esqueci-a-senha">
+                        <input type="submit" value="Esqueci a senha">
+                    </p>
+                </form>
+            </article>
+        </section>
+    </main>
 </body>
 </html>

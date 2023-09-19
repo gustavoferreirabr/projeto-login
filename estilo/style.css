@@ -61,6 +61,10 @@ p{
     font-size: 13px;
 }
 
+span.material-icon{
+    height: 600px;
+}
+
 p.usuario-senha{
     background-color: #5f2c82;
     margin-bottom: 5px;
