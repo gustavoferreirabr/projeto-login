@@ -25,9 +25,8 @@ main{
 
 section{
     background-color: white;
-    padding: 10px;
     border-radius: 10px;
-    height: 450px;
+    height: 500px;
 
     position: absolute;
     left: 50%;
@@ -36,6 +35,35 @@ section{
 }
 
 div#imagem > img{
-    width: 250px;
-    
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+article > form > p > span{
+    color: blue;
+    height: 100%;
+    display: block;
+}
+
+p#botao-entrar > input{
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+p#botao-esqueci-a-senha > input{
+    width: 50vw;
+    display: block;
+    margin: auto;
 }
