@@ -2,6 +2,8 @@ Como faz para deixar os icones certinhos?
 
 Minha div estava quebrando no final, como posso deixar ela certa? usando max0width ou vw?
 
+Como deixar quando clicamos no input, deixar ele branco?
+
 
 <!-- Anotações --!>
 
@@ -9,6 +11,7 @@ O fato de talvez o conteudo ter fugido do nosso main, foi devido, a termos centr
 
 O guanabara deixou a imagem e o texto e titulo juntos aos forms, com display:block
 
+O guanabara conseguiu utilizar o transition: width .3s heitgh 1.3s, com isso meio que faz parecer uma animação quando o main está sendo passado para uma outra media.
 
 
 <!-- Tópicos para Aprender --!>
@@ -18,3 +21,7 @@ Resposta:
 
 - overflow: hidden
 Resposta:
+
+- float: right ou left
+Resposta:
+
