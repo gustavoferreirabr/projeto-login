@@ -26,7 +26,7 @@ main{
 section{
     background-color: white;
     border-radius: 10px;
-    height: 516px;
+    height: 520px;
 
     position: absolute;
     left: 50%;
@@ -56,7 +56,49 @@ article > form > p > span{
     display: block;
 }
 
+p.usuario{
+    background-color: #5f2c82;
+    margin: auto;
+    display: block;
+    width: 50vw;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
 
+p.usuario > input{
+    background-color: #6cd3cf;
+    border: none;
+    height: 5vh;
+    width: 43vw;
+    border-radius: 10px;
+}
+
+p.usuario > input:focus-within{
+    background-color: white;
+    border: 1px solid black;
+}
+
+p.senha{
+    background-color: #5f2c82;
+    margin: auto;
+    display: block;
+    width: 50vw;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+p.senha > input{
+    background-color: #6cd3cf;
+    border: none;
+    height: 5vh;
+    width: 43vw;
+    border-radius: 10px;
+}
+
+p.senha > input:focus-within{
+    background-color: white;
+    border: 1px solid black;
+}
 
 p#botao-entrar > input{
     width: 50vw;
