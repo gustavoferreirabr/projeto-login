@@ -70,7 +70,15 @@ p.usuario-senha{
     margin-bottom: 5px;
     padding: 2px;
     border-radius: 10px;
+    border: none;
     
+    
+}
+
+p.usuario-senha > input:focus-within{
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 p.usuario-senha > input{
