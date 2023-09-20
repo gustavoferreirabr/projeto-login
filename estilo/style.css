@@ -71,8 +71,6 @@ p.usuario-senha{
     padding: 2px;
     border-radius: 10px;
     border: none;
-    
-    
 }
 
 p.usuario-senha > input:focus-within{
